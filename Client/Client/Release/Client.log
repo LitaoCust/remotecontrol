@@ -1,0 +1,35 @@
+﻿生成启动时间为 2015/2/17 星期二 22:06:40。
+     1>项目“H:\计算机\Documents\软件设计\1 远程控制\new\unnamed\Client\Client\Client.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Developing\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Client.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Developing\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Client.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp CmdShell.cpp Disk.cpp MySocket.cpp SystemInfo.cpp Task.cpp ThreadMain.cpp
+         Client.cpp
+         CmdShell.cpp
+         Disk.cpp
+     1>Disk.cpp(185): warning C4244: “参数”: 从“__int64”转换到“UINT”，可能丢失数据
+         MySocket.cpp
+         SystemInfo.cpp
+     1>SystemInfo.cpp(22): warning C4996: 'GetVersionExW': 被声明为已否决
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442) : 参见“GetVersionExW”的声明
+         Task.cpp
+         ThreadMain.cpp
+     1>ThreadMain.cpp(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Developing\VS2013\VC\include\string.h(112) : 参见“strcpy”的声明
+       Link:
+         E:\Developing\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\计算机\Documents\软件设计\1 远程控制\new\unnamed\Client\Release\Client.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:E:\Developing\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"H:\计算机\Documents\软件设计\1 远程控制\new\unnamed\Client\Release\Client.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\计算机\Documents\软件设计\1 远程控制\new\unnamed\Client\Release\Client.lib" /MACHINE:X86 /SAFESEH Release\Client.obj
+         Release\CmdShell.obj
+         Release\Disk.obj
+         Release\MySocket.obj
+         Release\stdafx.obj
+         Release\SystemInfo.obj
+         Release\Task.obj
+         Release\ThreadMain.obj
+         正在生成代码
+         已完成代码的生成
+         Client.vcxproj -> H:\计算机\Documents\软件设计\1 远程控制\new\unnamed\Client\Release\Client.exe
+     1>已完成生成项目“H:\计算机\Documents\软件设计\1 远程控制\new\unnamed\Client\Client\Client.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.75
